@@ -5337,9 +5337,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: {
@@ -5377,28 +5374,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: {
-    name: String
+    name: String,
+    items: Array
   },
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -28227,14 +28206,13 @@ var render = function () {
           },
           [
             _vm._m(1),
-            _vm._v("\n    \n     " + _vm._s(_vm.websiteName) + " \n\n     "),
-            _c("ItemsComponent", { attrs: { itemName: "1234" } }),
+            _vm._v(" "),
+            _c("ItemsComponent", { attrs: { name: "1234" } }),
           ],
           1
         ),
       ]
     ),
-    _vm._v("\n " + _vm._s(_vm.websiteName) + " \n    "),
   ])
 }
 var staticRenderFns = [
@@ -28371,70 +28349,9 @@ var render = function () {
         ]),
       ]),
     ]),
-    _vm._v(" "),
-    _vm._m(0),
-    _vm._v(" "),
-    _vm._m(1),
   ])
 }
-var staticRenderFns = [
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
-      _c("div", { staticClass: "card-body" }, [
-        _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
-        _vm._v(" "),
-        _c("h6", { staticClass: "card-subtitle mb-2 text-muted" }, [
-          _vm._v("Card subtitle"),
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "card-text" }, [
-          _vm._v(
-            "Some quick example text to build on the card title and make up the bulk of the card's content."
-          ),
-        ]),
-        _vm._v(" "),
-        _c("a", { staticClass: "card-link", attrs: { href: "#" } }, [
-          _vm._v("Card link"),
-        ]),
-        _vm._v(" "),
-        _c("a", { staticClass: "card-link", attrs: { href: "#" } }, [
-          _vm._v("Another link"),
-        ]),
-      ]),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "card", staticStyle: { width: "18rem" } }, [
-      _c("div", { staticClass: "card-body" }, [
-        _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
-        _vm._v(" "),
-        _c("h6", { staticClass: "card-subtitle mb-2 text-muted" }, [
-          _vm._v("Card subtitle"),
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "card-text" }, [
-          _vm._v(
-            "Some quick example text to build on the card title and make up the bulk of the card's content."
-          ),
-        ]),
-        _vm._v(" "),
-        _c("a", { staticClass: "card-link", attrs: { href: "#" } }, [
-          _vm._v("Card link"),
-        ]),
-        _vm._v(" "),
-        _c("a", { staticClass: "card-link", attrs: { href: "#" } }, [
-          _vm._v("Another link"),
-        ]),
-      ]),
-    ])
-  },
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

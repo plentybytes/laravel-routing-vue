@@ -29,14 +29,11 @@
         <a class="nav-link disabled" href="#">Disabled</a>
       </li>
     </ul>
-    
-     {{ websiteName }} 
 
-     <ItemsComponent itemName="1234"/>
+     <ItemsComponent name="1234"/>
 
   </div>
 </nav>
- {{ websiteName }} 
     </div>
 </template>
 

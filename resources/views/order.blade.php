@@ -11,8 +11,8 @@
 <body>
 
     <div id="app">
-        <header-component websiteName="ebay"></header-component>
-         <items-component></items-component>
+        <header-component website-name="ebay"></header-component>
+         <items-component name="1234" items=[{name:"rice", price:12}, {name:"dal", price:10}]></items-component>
     </div>
     
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
