@@ -143,7 +143,6 @@ Adding new VUE component
 </ECom>
 
 
-
 Backend API 
     /api/header
         output: {name: "ebay"}
