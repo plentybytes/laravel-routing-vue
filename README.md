@@ -141,3 +141,11 @@ Adding new VUE component
 
         <Footer/>
 </ECom>
+
+
+
+Backend API 
+    /api/header
+        output: {name: "ebay"}
+front end Header.vue ->  make api call /api/header and use 
+https://www.tutsmake.com/larave-vue-js-spa-crud-example-tutorial/
