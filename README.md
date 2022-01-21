@@ -64,3 +64,80 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+
+
+
+-----
+
+Step -1	
+composer create-project --prefer-dist laravel/laravel blog
+composer require laravel/ui
+php artisan ui vue
+npm install && npm run dev
+--
+Step - 2 
+Add this in welcome blade
+	<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="{{ mix('/js/app.js') }}"></script>
+</head>
+<body>
+
+    <div id="app">
+        <example-component></example-component>
+    </div>
+    
+    <script src="{{ mix('/js/app.js') }}"></script>
+</body>
+</html>
+
+Step -3 
+npm run dev
+
+Step 4 
+php artisan serve
+
+step 5
+http://127.0.0.1:8000/
+
+
+====
+Understading UI routing 
+
+to add more routes, create a entry in web.php
+Route::get('/home', function () {
+    return view('home');
+});
+
+Add a entry in /resources/views/home.blade.php
+
+===
+
+Adding new VUE component 
+
+	- add a component in resources/js/components/
+	- regirster new component in resources/js/app.js
+	- if you add any code in app.js compile code npm run dev
+
+
+
+
+<ECom>
+        <Header/>
+        
+        <div container="">
+            <SideMenu/>
+
+            <Content>
+                <Item/>
+            </Content>
+        </div>
+
+        <Footer/>
+</ECom>
